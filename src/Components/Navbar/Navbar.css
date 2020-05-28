@@ -1,0 +1,35 @@
+#navbar {
+  background-color: #be3144;
+  color: white;
+  height: 60px;
+  width: 100%;
+  margin-bottom: 0;
+  font-size: 20px;
+  position: fixed;
+}
+#nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 20px;
+  height: 100%;
+}
+#nav-list > li a {
+  text-decoration: none;
+  color: white;
+  max-width: 110px;
+  padding: 15px 25px;
+  height: 100%;
+
+  display: block;
+}
+#nav-list > li a:hover {
+  background-color: #44567d;
+}
+
+@media (max-width: 400px) {
+  #nav-list {
+    justify-content: flex-start;
+    margin: 0 auto;
+  }
+}

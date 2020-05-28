@@ -1,0 +1,26 @@
+#footer {
+  background-color: #303740;
+  font-size: 18px;
+  font-weight: 100;
+  color: white;
+  display: flex;
+  height: 100px;
+  padding: 0 50px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  justify-items: flex-start;
+}
+#footer > p {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+@media (max-width: 400px) {
+  #footer {
+    flex-direction: column;
+    text-align: center;
+    font-size: 17px;
+    height: 200px;
+  }
+}
