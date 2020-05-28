@@ -1,0 +1,15 @@
+.contact-item {
+  display: block;
+  margin: 0 20px;
+}
+.contact-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+  text-shadow: 2px 2px #1e1e20;
+  display: inline-block;
+}
+.contact-item a:hover {
+  transform: translateY(10px);
+  transition: 0.5s;
+}

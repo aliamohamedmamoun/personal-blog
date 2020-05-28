@@ -1,0 +1,35 @@
+#contact {
+  background-color: #303740;
+  color: white;
+  height: 460px;
+  padding: 100px 0;
+  border-bottom: 5px solid #be3144;
+}
+#contact-header {
+  font-weight: 600;
+}
+#contact-paragraph {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+#contact-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+@media (max-width: 400px) {
+  #contact-header {
+    font-size: 30px;
+  }
+  #contact-paragraph {
+    margin-bottom: 20px;
+  }
+  #contact {
+    height: 100%;
+    padding: 10px;
+  }
+}
